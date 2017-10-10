@@ -1,0 +1,127 @@
+
+.box{
+    height: 1800px;
+    background: url("../images/img02.jpg")  center center;
+    background-size: 100% 100%;
+}
+/*------------------------------------------------------------------上-----*/
+.top{
+    width: 90%;
+    text-align: center;
+    padding-top: 30px;
+}
+.top>code{
+    width: 500px;
+    color: #4C83FA;
+    font-size: 50px;
+    text-shadow: 0 0 15px gold;
+    cursor: pointer;
+    text-align: center;
+    animation: amt 2s infinite;
+}
+@keyframes amt {
+    0%{font-style: normal;color: #4C83FA}
+    50%{font-style: italic;color: red}
+    100%{font-style: normal;color: #4C83FA}
+}
+/*------------------------------------------------------------------中-----*/
+.mid{width: 90%;margin-top: 30px;}
+.mid>div{
+    float: left;
+    width: 32.66666666666667%;
+    height: 350px;
+    box-sizing: border-box;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+}
+.mid>div:hover{box-shadow: 0 0 50px 10px #4C83FA inset;cursor: pointer;}
+
+.mid>div:nth-child(2),.mid>div:nth-child(3),.mid>div:nth-child(5),
+.mid>div:nth-child(6),.mid>div:nth-child(8),.mid>div:nth-child(9){
+    margin-left: 1%;
+}
+
+.mid>div:nth-child(n+4){margin-top: 10px;}
+.mid>div:nth-child(1){background: url("../images/zl.jpg") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(2){background: url("../images/jzw.jpg") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(3){background: url("../images/wyt.png") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(4){background: url("../images/yxdlm.jpg") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(5){background: url("../images/tyy.jpg") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(6){background: url("../images/zywnhyt.jpg") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(7){background: url("../images/ldgb.jpg") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(8){background: url("../images/za.jpg") no-repeat center center;background-size: 100% 100%;}
+.mid>div:nth-child(9){background: url("../images/ghsy.jpg") no-repeat center center;background-size: 100% 100%;}
+
+.play{
+    position: absolute;
+    opacity: 0.7;
+    width: 80px;
+    height: 80px;
+    top: 50%;
+    left: 50%;
+    margin-top: -40px;
+    margin-left: -40px;
+}
+#img011,#img021,#img031,#img041,#img051,#img061,#img071,#img081,#img091{display: none;}
+/*--------------------------------效果-------------------*/
+.amt{
+    width: 90%;
+    height: 300px;
+    margin-top: 30px;
+    opacity: 0.8;
+}
+.amt>ul{
+    width: 100%;
+    height:100%;
+    position: relative;
+}
+.amt li{
+    width: 4.525%;
+    height: 100%;
+    background-color: dodgerblue;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 10%;
+}
+.amt li:nth-child(1){left: 0 ; animation: amtLine 1.36s linear infinite}
+.amt li:nth-child(2){left: 5.025% ; animation: amtLine 1.66s linear infinite}
+.amt li:nth-child(3){left: 10.05% ; animation: amtLine 1.56s linear infinite}
+.amt li:nth-child(4){left: 15.075% ; animation: amtLine 1.46s linear infinite}
+.amt li:nth-child(5){left: 20.01% ; animation: amtLine 1.7s linear infinite}
+.amt li:nth-child(6){left: 25.125% ; animation: amtLine 1.75s linear infinite}
+.amt li:nth-child(7){left: 30.15% ; animation: amtLine 1.6s linear infinite}
+.amt li:nth-child(8){left: 35.175% ; animation: amtLine 1.8s linear infinite}
+.amt li:nth-child(9){left: 40.2% ; animation: amtLine 1.85s linear infinite}
+.amt li:nth-child(10){left: 45.225% ; animation: amtLine 1.9s linear infinite}
+.amt li:nth-child(11){left: 50.25% ; animation: amtLine 1.96s linear infinite}
+.amt li:nth-child(12){left: 55.275% ; animation: amtLine 1.46s linear infinite}
+.amt li:nth-child(13){left: 60.3% ; animation: amtLine 1.86s linear infinite}
+.amt li:nth-child(14){left: 65.325% ; animation: amtLine 1.66s linear infinite}
+.amt li:nth-child(15){left: 70.35% ; animation: amtLine 1.96s linear infinite}
+.amt li:nth-child(16){left: 75.375% ; animation: amtLine 1.76s linear infinite}
+.amt li:nth-child(17){left: 80.4% ; animation: amtLine 1.56s linear infinite}
+.amt li:nth-child(18){left: 85.425% ; animation: amtLine 1.86s linear infinite}
+.amt li:nth-child(19){left: 90.45% ; animation: amtLine 1.62s linear infinite}
+.amt li:nth-child(20){left: 95.475% ; animation: amtLine 1.58s linear infinite}
+
+@keyframes amtLine {
+    0%{height: 100% ; background-color: hotpink;border-radius: 100%;}
+    50%{height: 1% ; background-color: blue;border-radius: 1%;}
+    100%{height: 100% ; background-color: yellowgreen;border-radius: 100%;}
+}
+/*------------------------------------------------------------------下-----*/
+.bottom{
+    font-style: italic;
+    margin-top: 150px;
+    padding-bottom: 20px;
+    width: 90%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.coding{width: 60px;height: 60px;vertical-align: middle;}
+/*/!*------------------------------------------------------------------站长统计-----*!/*/
+.tj{line-height: 30px; background-color:rgba(255,255,180,0.6);margin-top: 10px}
+.tj a{color:#0387CF;font-size: 19px;font-style: normal;font-weight: bold}
