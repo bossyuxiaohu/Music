@@ -3,8 +3,9 @@
     height: 1800px;
     background: url("../images/img02.jpg")  center center;
     background-size: 100% 100%;
+    perspective: 3000px;
 }
-/*------------------------------------------------------------------上-----*/
+/*------------------------------------------------------------------脡脧-----*/
 .top{
     width: 90%;
     text-align: center;
@@ -24,7 +25,7 @@
     50%{font-style: italic;color: red}
     100%{font-style: normal;color: #4C83FA}
 }
-/*------------------------------------------------------------------中-----*/
+/*------------------------------------------------------------------脰脨-----*/
 .mid{width: 90%;margin-top: 30px;}
 .mid>div{
     float: left;
@@ -34,8 +35,9 @@
     border-radius: 5%;
     text-align: center;
     position: relative;
+    transition: all 1s;
 }
-.mid>div:hover{box-shadow: 0 0 50px 10px #4C83FA inset;cursor: pointer;}
+.mid>div:hover{box-shadow: 0 0 50px 10px #4C83FA inset;cursor: pointer;transform: rotateX(20deg)}
 
 .mid>div:nth-child(2),.mid>div:nth-child(3),.mid>div:nth-child(5),
 .mid>div:nth-child(6),.mid>div:nth-child(8),.mid>div:nth-child(9){
@@ -64,7 +66,7 @@
     margin-left: -40px;
 }
 #img011,#img021,#img031,#img041,#img051,#img061,#img071,#img081,#img091{display: none;}
-/*--------------------------------效果-------------------*/
+/*--------------------------------脨搂鹿没-------------------*/
 .amt{
     width: 90%;
     height: 300px;
@@ -111,7 +113,7 @@
     50%{height: 1% ; background-color: blue;border-radius: 1%;}
     100%{height: 100% ; background-color: yellowgreen;border-radius: 100%;}
 }
-/*------------------------------------------------------------------下-----*/
+/*------------------------------------------------------------------脧脗-----*/
 .bottom{
     font-style: italic;
     margin-top: 150px;
@@ -122,6 +124,6 @@
     color: white;
 }
 .coding{width: 60px;height: 60px;vertical-align: middle;}
-/*/!*------------------------------------------------------------------站长统计-----*!/*/
+/*/!*------------------------------------------------------------------脮戮鲁陇脥鲁录脝-----*!/*/
 .tj{line-height: 30px; background-color:rgba(255,255,180,0.6);margin-top: 10px}
 .tj a{color:#0387CF;font-size: 19px;font-style: normal;font-weight: bold}
