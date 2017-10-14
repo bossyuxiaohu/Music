@@ -1,0 +1,82 @@
+* {margin: 0;padding: 0}
+ul {list-style: none }
+table {border-collapse: collapse;}
+input,button{border:1px solid #DFDFDF;outline: none;box-sizing: border-box}
+body, a {color: #CCCCCC;}
+body {
+    font-size: 14px;
+    font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
+}
+a {cursor: pointer;text-decoration: none;}
+button{cursor: pointer}
+.center {margin-left: auto; margin-right: auto;}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.col_1 {width: 8.33333333%;}
+.col_2 {width: 16.66666667%;}
+.col_3 {width: 25%;}
+.col_4 {width: 33.33333333%;}
+.col_5 {width: 41.66666667%;}
+.col_6 {width: 50%;}
+.col_7 {width: 58.33333333%;}
+.col_8 {width: 66.66666667%;}
+.col_9 {width: 75%;}
+.col_10 {width: 83.33333333%;}
+.col_11 {width: 91.66666667%;}
+.col_12 {width: 100%;}
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11, .col_12 {
+    float: left;height:100%;
+}
+.float_l{float: left}
+.float_r{float: right}
+.rel{position:relative;}
+.abs{position: absolute}
+.falseLine:after{
+    content:"";
+    display: table;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    border-right:1px solid #DFDFDF;
+    pointer-events: none;
+}
+.border{
+    border:1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+.border_t{
+    border-top:1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+.border_b{
+    border-bottom:1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+.border_l{
+    border-left:1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+.border_r{
+    border-right:1px solid #DFDFDF;
+    box-sizing: border-box;
+}
+.aClick{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.text_c{text-align: center;}
+.text_l{text-align: left}
+.text_r{text-align: right}
+
+.min_w{min-width: 1220px}
